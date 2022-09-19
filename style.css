@@ -1,0 +1,90 @@
+body {
+  background: #7AD6D2;
+  font-family: sans-serif;
+}
+button {
+  align-self: flex-end;
+  background-color: #675AA3;
+  margin-left: 780px;
+  border-radius: 100px;
+  
+}
+
+
+button:hover {
+  transform: skew(-30deg);
+}
+
+
+.container {
+  background: #6D85A3;
+  margin: 60px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #4F4470;
+  padding: 30px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.imgRedonda {
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.imgRedonda:hover {
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.textos {
+  margin-left: 16px;
+}
+.textos h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.textos h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #213B39 27.49%, #7A93D6 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.lista {
+  list-style: none;
+  font-style: bold;
+  font-size: 25px;
+}
+li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 38px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #062E40 27.26%, #396355 96.03%);
+}
+.dark .container {
+  background: #2D3052;
+}
+.dark button {
+  background-color: #91FFDA;
+}
